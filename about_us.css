@@ -1,5 +1,6 @@
-div p{
-font-size: x-large;    
+#about div p{
+font-size: x-large;   
+height: 100vh; 
 }
 
 footer{
@@ -10,12 +11,24 @@ footer{
     font-style: italic;
 }
 
-h1{
-    background-color: #2d3b3e;
-    color: aqua;
+#about h1{
+    background-color: black;
+    color:white;
+    text-align: center;
 }
 
-strong{
+#about h1::after{
+    position: relative;
+  bottom:0;
+  left:0;
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: red;
+  display: block;
+}
+
+#about strong{
     font-style: italic;
 }
 
