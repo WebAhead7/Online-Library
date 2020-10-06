@@ -1,0 +1,30 @@
+div p{
+font-size: x-large;    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+    font-style: italic;
+}
+
+h1{
+    background-color: #2d3b3e;
+    color: aqua;
+}
+
+strong{
+    font-style: italic;
+}
+
+body{
+    align-items: center;
+    padding: 80px;
+    padding-top: 15px;
+}
+
+hr{
+    bottom: 0;
+}
