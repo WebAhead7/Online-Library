@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* navigation bar style*/
 div.logo::after{
   position: relative;
   bottom:0;
@@ -101,3 +102,54 @@ nav ul li a{
     padding: 4px 10px;
   }
 }
+
+/*About Us style*/
+
+ .about{
+  height: 70vh; 
+  margin: 20px;
+}
+ .about p{
+  font-size: x-large;   
+  }
+
+.about h1{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.about h1::after{
+    position: relative;
+  bottom:0;
+  left:0;
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: red;
+  display: block;
+}
+
+.about strong{
+    font-style: italic;
+}
+  
+  footer{
+    background: black;
+    color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: smaller;
+      font-style: italic;
+  }
+  
+
+  
+  /* body{
+      align-items: center;
+      padding: 80px;
+      padding-top: 15px;
+  } */
+  
+  
