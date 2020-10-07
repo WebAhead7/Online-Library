@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin:0 auto;
+    width: 1000px;
+}
+.img-face {
+    width: 50px ;
+}
+
+/* Three columns side by sode */
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 0 8px;
+    
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a "card" effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671);
+    transition: 0.40s;
+    background-color: hsla(144, 19%, 39%, 0.205);
+}
+/* On mouse-over, add a deeper shadow*/
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
+/*Add some padding inside the card container*/
+.container{
+    padding: 2px 16px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+/* clear floats */
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title-info {
+    color: grey;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 6px;
+    color: hsla(0, 0%, 100%, 0.521);
+    background-color: #1c0e208e;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    
+}
+
+.button:hover {
+    background-color: #555;
+    
+}
+.Members {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color:white;
+    background-color: black;
+    width: 32%;
+}
