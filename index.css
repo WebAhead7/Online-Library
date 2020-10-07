@@ -1,0 +1,24 @@
+.introduction {
+    background-image: url("https://www.clker.com/cliparts/K/B/S/g/S/Z/cute-pink-owl-hi.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100px;
+    background-position-x: 750px;
+    background-position-y: 320px;
+    background-size: 600px ;
+    margin: 10px;
+    position: fixed;
+    border-radius: 10px;
+    background-color:white;
+    padding:50px;
+    font-size: larger;
+}
+.title {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
