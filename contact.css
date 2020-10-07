@@ -1,8 +1,8 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  input[type=text], textarea {
+  box-sizing: border-box;
+}  
+
+  input[type=text-contact], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -11,7 +11,7 @@
     resize: vertical;
   }
   
-  input[type=submit] {
+  input[type=submit-contact] {
     background-color: #000000;
     color: white;
     padding: 12px 20px;
@@ -25,21 +25,21 @@
     padding: 10px;
   }
   
-  .column {
+  .column-contact {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
   }
   
-  .row:after {
+  .row-contact:after {
     content: "";
     display: table;
     clear: both;
   }
   
   @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
+    .column-contact, input[type=submit-contact] {
       width: 100%;
       margin-top: 0;
     }
