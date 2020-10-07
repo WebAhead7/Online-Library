@@ -119,6 +119,7 @@
     background-color:white;
     /* padding:50px; */
     font-size: larger;
+
 }
 .introduction ul{
   list-style-position: inside;
@@ -132,7 +133,7 @@
 }
 
 body{
-    background-image: url("books1.jpg");
+    background-image: url("./img/books2.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: bottom;
@@ -290,10 +291,11 @@ nav ul li a{
   input[type=text-contact], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-radius: 2px;
   }
   
   input[type=submit-contact] {
@@ -306,7 +308,7 @@ nav ul li a{
   
   .Contact {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color:white ;
     padding: 10px;
   }
   
@@ -331,5 +333,9 @@ nav ul li a{
     }
   }
  
+  .introduction, .about, .team, .Contact{
+    opacity: 0.85;
+  }
+
   
   
