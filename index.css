@@ -9,7 +9,10 @@
 .img-face {
     width: 50px ;
 }
-
+  .row{
+    display: flex;
+    justify-content: space-around;
+  }
 
 
 /* Three columns side by sode */
@@ -30,8 +33,8 @@
 /* Add some shadows to create a "card" effect */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671);
-    transition: 0.40s;
-    background-color: hsla(144, 19%, 39%, 0.205);
+    transition: 0.60s;
+    background-color:white;
 }
 /* On mouse-over, add a deeper shadow*/
 .card:hover{
@@ -62,26 +65,24 @@
     outline: 0;
     display: inline-block;
     padding: 6px;
-    color: hsla(0, 0%, 100%, 0.521);
+    color: black;
     background-color: #1c0e208e;
     text-align: center;
     cursor: pointer;
-    width: 50%;
+    width: 100%;
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
     
 }
 
-.button:hover {
-    background-color: #555;
-    
-}
+
 .Members {
     font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-size: larger;
     color:white;
     background-color: black;
-    width: 32%;
+    width: 100%;
+    text-align: center;
 }
 
 .team{
