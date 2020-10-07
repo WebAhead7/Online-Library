@@ -116,8 +116,9 @@ nav ul li a{
 /*About Us style*/
 
  .about{
-  /* height: 90vh;  */
-  margin: 20px;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
   background: white;
 }
  .about p{
@@ -126,13 +127,15 @@ nav ul li a{
   }
 
 .about h1{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
     background-color: black;
     color:white;
     text-align: center;
 }
 
 .about h1::after{
-    position: relative;
+  position: relative;
   bottom:0;
   left:0;
   content: '';
