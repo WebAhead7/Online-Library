@@ -10,6 +10,8 @@
     width: 50px ;
 }
 
+
+
 /* Three columns side by sode */
 .column {
     float: left;
@@ -81,6 +83,13 @@
     background-color: black;
     width: 32%;
 }
+
+.team{
+  margin: 25px 50px;
+  border-radius: 10px;
+  background: white;
+  
+}
 .introduction {
     background-image: url("https://www.clker.com/cliparts/K/B/S/g/S/Z/cute-pink-owl-hi.png");
     background-repeat: no-repeat;
@@ -89,8 +98,8 @@
     background-position-x: 750px;
     background-position-y: 320px;
     background-size: 600px ;
-    margin: 10px;
-    position: fixed;
+    margin: 50px 50px 25px 50px;
+    /* position: fixed; */
     border-radius: 10px;
     background-color:white;
     padding:50px;
@@ -267,10 +276,6 @@ nav ul li a{
   
 
   
-  /* body{
-      align-items: center;
-      padding: 80px;
-      padding-top: 15px;
-  } */
+ 
   
   
