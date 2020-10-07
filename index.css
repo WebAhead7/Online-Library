@@ -12,6 +12,7 @@
   .row{
     display: flex;
     justify-content: space-around;
+    margin: 15px 0px;
   }
 
 
@@ -19,11 +20,11 @@
 .column {
     float: left;
     width: 20%;
-    margin-bottom: 0 8px;
-    
+    border-radius: 10px;
+    margin-bottom: 8px;
 }
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
     .column {
         width: 100%;
         display: block;
@@ -32,9 +33,12 @@
 
 /* Add some shadows to create a "card" effect */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671); */
     transition: 0.60s;
     background-color:white;
+    border: solid 1px grey;
+    border-radius: 5px;
+    
 }
 /* On mouse-over, add a deeper shadow*/
 .card:hover{
@@ -44,12 +48,18 @@
 /*Add some padding inside the card container*/
 .container{
     padding: 2px 16px;
+    width: 100%;
+    max-height: 90%;
 }
 
-/* Some left and right padding inside the container */
-.container {
-    padding: 0 16px;
+.container-card p, .container-card h2{
+  max-width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
+
+
 /* clear floats */
 .container::after, .row::after{
     content: "";
@@ -76,13 +86,15 @@
 }
 
 
-.Members {
+.members-info {
     font-family: "Times New Roman", Times, serif;
     font-size: larger;
     color:white;
     background-color: black;
     width: 100%;
     text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .team{
@@ -112,15 +124,6 @@
   list-style-position: inside;
   padding: 10px;
 }
-
-/* .title {
-    color: white;
-    background-color: black;
-    font-size: 40px;
-    padding: 15px;
-    text-align: center;
-    
-} */
 
 *{
   padding: 0;
@@ -239,7 +242,7 @@ nav ul li a{
 
 /*About Us style*/
 
- .about{
+ .about ,.Contact{
   border-radius: 10px;
   margin: 25px 50px;
   background: white;
@@ -257,7 +260,7 @@ nav ul li a{
     text-align: center;
 }
 
-.about h1::after, .introduction h1::after{
+.about h1::after, .introduction h1::after, .members-info h1::after{
   position: relative;
   bottom:0;
   left:0;
@@ -283,7 +286,50 @@ nav ul li a{
   }
   
 
+  /*Contact styling*/
+  input[type=text-contact], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
   
+  input[type=submit-contact] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column-contact {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row-contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column-contact, input[type=submit-contact] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
  
   
   
