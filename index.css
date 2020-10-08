@@ -24,12 +24,12 @@
     margin-bottom: 8px;
 }
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .column {
         width: 100%;
         display: block;
     }
-}
+} */
 
 /* Add some shadows to create a "card" effect */
 .card {
@@ -301,7 +301,7 @@ nav ul li a{
     border-radius: 2px;
   }
   
-  input[type=submit-contact] {
+  input[type=submit] {
     background-color: #000000;
     color: white;
     padding: 12px 20px;
@@ -338,7 +338,7 @@ nav ul li a{
   }
  
   .introduction, .about, .team, .Contact{
-    opacity: 0.85;
+    opacity: 0.9;
   }
 
   
