@@ -13,7 +13,9 @@ Books & More is a new technology that changing the ways we create, access and us
 
 ## About Us
 
-
+ The ultimate goal of <strong>Books & More</strong> is to make all the published works of humankind available
+ to everyone in the world. While large in scope and ambition, this goal is within our grasp. Achieving it will
+ require the participation of librarians, authors, government officials and technologists.
 
 
 
